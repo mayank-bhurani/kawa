@@ -75,13 +75,20 @@ fontPlus.addEventListener('click', fontIncrease);
 
 
 
-/*font changer scripts*/
+/*@summary font changer scripts
+* @author Mayank
+* @param
+* @response
+* @created_at
+* @modify_at 
+*/
 //variable declaration
 
 let fontList = document.getElementById('font-options');
 let fontType = fontList.querySelectorAll('li');
 let KoanArticle = document.querySelector('article');
 let allParas = document.getElementsByTagName('p');
+
 function defaultFont(){
 for (i=0; i < allParas.length; i++){
   allParas[i].removeAttribute('class');
