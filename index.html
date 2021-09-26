@@ -21,11 +21,15 @@
             <div id="about">about</div>
         </div>
     </nav>
+    <div id="all-koans-section-hid">
+        <ol id="koans-list">
+        </ol>
+    </div>
     <div id="theme-changer-hid">
         <div id="theme-boxes">
-            <div class="white-10"></div>
-            <div class="moon-mist-fade"></div>
-            <div class="black-90"></div>
+            <div id="white-10"></div>
+            <div id="moon-mist-fade"></div>
+            <div id="black-90"></div>
         </div>
         <div id="font-size-changer">
             <img id="font-minus" src="vectors/font-minus.svg" alt="">
@@ -35,7 +39,7 @@
         <div id="font-changer">
             <ul id="font-options">
                 <li class="serif">serif</li>
-                <li class="sawarabi">sawarabi mincho</li>
+                <li class="baskerville">baskerville</li>
                 <li class="sans-serif">sans-serif</li>
                 <li class="monospace">monospace</li>
             </ul>
@@ -46,38 +50,29 @@
             <img src="vectors/kawa_icon.svg" alt="">
             <div class="dedication">dedicated to <span>this</span></div>
             <div>zen koans are short stories, that exhibit a moral and enigmatic nature. these come from different zen masters and philosophers.</div>
-            <div>this website is made by hikari of arupakaman studios. we hope it serves you well.</div>
-            <a href="#">download the android app</a>
+            <div>arupakaman studios. we hope it serves you well.</div>
+            <a href="https://play.google.com/store/apps/details?id=com.arupakaman.kawa" target="blank">android app</a>
         </div>
     </div>
     <header>
         <section class="left-side">
             <div class="koan-content">
-                <h1>if you love, love openly</h1>
-            <article id="koan-text">
-                <p>Twenty monks and one nun, who was named Eshun, were practicing meditation with a certain Zen master.</p>
-                <p>Eshun was very pretty even though her head was shaved and her dress plain. Several monks secretly fell in love with her. One of them wrote her a love letter, insisting upon a private meeting.</p>
-                <p>Eshun did not reply. The following day the master gave a lecture to the group, and when it was over, Eshun arose. Addressing the one who had written to her, she said: "If you really love me so much, come and embrace me now."</p>
-            </article>
+                <h1></h1>
+            <article id="koan-text"></article>
                 <div class="koan-changer">
-                    <svg width="15" height="30" version="1.1" viewBox="0 0 3.9687 7.9375">
-                    <path d="m3.9687 0.28214c-2.0361 1e-5 -3.6866 1.6506-3.6866 3.6866 0 2.036 1.6506 3.6866 3.6866 3.6866" fill="none" stroke="#000" stroke-width=".56428"/>
+                    <img id="previous-koan" src="vectors/semi-circle-arc.svg" title="previous koan">
                     </svg>
-                    <div class="koan-number">005</div>
-                    <?xml version="1.0" encoding="UTF-8"?>
-                    <svg width="15" height="30" version="1.1" viewBox="0 0 3.9687 7.9375">
-                    <path d="m1.3857e-6 7.6553c2.0361-1e-5 3.6866-1.6506 3.6866-3.6866 0-2.036-1.6506-3.6866-3.6866-3.6866" fill="none" stroke="#000" stroke-width=".56428"/>
+                    <div id="koan-number"></div>
+                   <img id="next-koan" src="vectors/semi-circle-arc2.svg" title="next koan">
                     </svg>
                 </div>
             </div>
         </section>
         <section class="right-side">
-            <img src="rasters/Joseph Farquharson - Cauld Blaws the Wind frae East to West.jpg" alt="" class="right-cover">
+            <img id="imageMain" src="rasters/03.webp" alt="" class="right-cover">
         </section>
     </header>
     <script src="scripts/script.js"></script>
-    <script src="scripts/koansGen.js"></script>
+    <script src="scripts/koans.js"></script>
 </body>
 </html>
-
-<!-- this wbsite is made by hikari of arupakaman as a deication to june. -->
